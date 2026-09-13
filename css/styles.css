@@ -14,8 +14,10 @@ a {
   color: #8b3f16;
 }
 
-a:focus {
-  outline: none;
+a:focus-visible {
+  outline: 3px solid #4b2e1d;
+  outline-offset: 2px;
+  border-radius: .2rem;
 }
 
 .site-header,
